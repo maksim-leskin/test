@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Семантика</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #111;
+      color: aliceblue;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Семантика</h1>
+
+  <div>
+    <h2>Стерильные элементы</h2>
+
+    <div>Просто блок</div>
+
+    <span>Просто текст</span>
+  </div>
+
+  <div>
+    <h2>Текстовые элементы</h2>
+
+    <div>
+      <h3>Жирный текст</h3>
+      
+      <b>Жирный текст</b>
+      <br>
+      <strong>Внимание Жирный текст</strong>
+    </div>
+
+    <div>
+      <h3>Курсивный текст</h3>
+      
+      <i>Курсив</i>
+      
+      <em lang="en">Hello world</em>
+    </div>
+
+    <small>Разъяснение, цитирование, уведомление</small>
+  </div>
+
+
+  <div>
+    <h2>Описание</h2>
+
+    <img src="favicon.svg" width="200" alt="Фавикон Methed состоит из букв M и E">
+
+    <figure>
+      <img src="cat.jpg" width="300" alt="Бабочка села на нос кошке">
+      <figcaption>Бабочки не боятся кошек</figcaption>
+    </figure>
+
+    <form>
+      <h3>Прогресс</h3>
+
+      <fieldset>
+        <legend>Личная информация</legend>
+
+        <label>
+          <input type="text">Фамилия
+        </label>
+
+        <label>
+          <input type="text">Имя
+        </label>
+
+        <label>
+          <input type="text">Возраст
+        </label>
+      </fieldset>
+
+      <fieldset disabled>
+        <legend>Общая информация</legend>
+
+        <label>
+          <input type="text">Место жительства
+        </label>
+        
+        <label>
+          <input type="text">Место Учебы
+        </label>
+
+        <label>
+          <input type="text">Место работы
+        </label>
+      </fieldset>
+
+      <fieldset disabled>
+        <legend>Прогресс</legend>
+
+        <label>
+          <input type="checkbox">Структура HTML
+        </label>
+
+        <label>
+          <input type="checkbox">Списки
+        </label>
+
+        <label>
+          <input type="checkbox">Таблицы
+        </label>
+
+        <label>
+          <input type="checkbox">Ссылки
+        </label>
+
+        <label>
+          <input type="checkbox">Изображения
+        </label>
+
+        <label>
+          <input type="checkbox">Формы
+        </label>
+
+        <label>
+          <input type="checkbox">Категории элементов
+        </label>
+
+        <label>
+          <input type="checkbox">Семантика
+        </label>
+      </fieldset>
+    </form>
+  </div>
+
+
+
+</body>
+
+</html>
